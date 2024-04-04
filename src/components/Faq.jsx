@@ -21,7 +21,7 @@ const Faq = () => {
  
   const handleOpen = (value) => setOpen(open === value ? 0 : value);
   return (
-    <div className=' lg:pt-[150px] md:pt-20 pt-10 relative'>
+    <div className=' lg:pt-[150px] md:pt-20 pt-10 relative' id='faq'>
       <img src={triangle} alt="tri" className=' absolute top-[11%] left-[3%] hidden lg:block ' />
       <img src={triangle} alt="tri" className='absolute bottom-[25%] right-[3%] hidden lg:block' />
       <div className=' container max-w-[1140px] 2xl:max-w-[1320px] mx-auto w-full px-3'>

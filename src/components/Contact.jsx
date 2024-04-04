@@ -61,7 +61,7 @@ const Contact = () => {
   }
   return (
     <div className="lg:pt-[150px] md:pt-20 pt-10">
-      <div className="container max-w-[1140px] 2xl:max-w-[1320px] mx-auto px-3 w-full" >
+      <div className="container max-w-[1140px] 2xl:max-w-[1320px] mx-auto px-3 w-full" id="contact" >
         <div className="flex lg:flex-row flex-wrap -mx-3 flex-col-reverse">
           <div className="lg:w-1/2 px-3" data-aos="zoom-in">
             <h2 className=" font-outfit text-3xl md:text-5xl md:leading-[57.6px] font-semibold text-[#131200] mb-4 text-center lg:text-start mt-10 lg:mt-0">

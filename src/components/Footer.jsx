@@ -39,19 +39,19 @@ const Footer = () => {
 <div className="w-1/2 px-3 ">
     <ul className=' pl-0'>
         <li className=' text-white text-sm sm:text-base font-outfit font-semibold mb-4'>Maine</li>
-        <li className=' mb-[14px]'><a href="" className=' text-[#FDFDFF] opacity-70 font-exo text-sm sm:text-base font-normal text-center'>Home</a></li>
-        <li className=' mb-[14px]'><a href="" className=' text-[#FDFDFF] opacity-70 font-exo text-sm sm:text-base font-normal'>About Us</a></li>
-        <li className=' mb-[14px]'><a href="" className=' text-[#FDFDFF] opacity-70 font-exo text-sm sm:text-base font-normal'>services</a></li>
-        <li><a href="" className=' text-[#FDFDFF] opacity-70 font-exo text-sm sm:text-base font-normal'>Why Choose Us</a></li>
+        <li className=' mb-[14px]'><a href="#home" className=' text-[#FDFDFF] opacity-70 font-exo text-sm sm:text-base font-normal text-center'>Home</a></li>
+        <li className=' mb-[14px]'><a href="#about" className=' text-[#FDFDFF] opacity-70 font-exo text-sm sm:text-base font-normal'>About Us</a></li>
+        <li className=' mb-[14px]'><a href="#faq" className=' text-[#FDFDFF] opacity-70 font-exo text-sm sm:text-base font-normal'>services</a></li>
+        <li><a href="#choose" className=' text-[#FDFDFF] opacity-70 font-exo text-sm sm:text-base font-normal'>Why Choose Us</a></li>
     </ul>
 </div>
 <div className="w-1/2 px-3 sm:flex justify-end">
     <ul>
         <li className=' text-white text-sm sm:text-base font-outfit font-semibold mb-4'>Legal</li>
-        <li className=' mb-[14px]'><a href="" className=' text-[#FDFDFF] opacity-70 font-exo text-sm sm:text-base font-normal text-center'>Term & Conduction</a></li>
-        <li className=' mb-[14px]'><a href="" className=' text-[#FDFDFF] opacity-70 font-exo text-sm sm:text-base font-normal'>Privacy Policy</a></li>
-        <li className=' mb-[14px]'><a href="" className=' text-[#FDFDFF] opacity-70 font-exo text-sm sm:text-base font-normal'>Contact</a></li>
-        <li><a href="" className=' text-[#FDFDFF] opacity-70 font-exo text-sm sm:text-base font-normal'>(629) 555-0129</a></li>
+        <li className=' mb-[14px]'><a href="#" className=' text-[#FDFDFF] opacity-70 font-exo text-sm sm:text-base font-normal text-center'>Term & Conduction</a></li>
+        <li className=' mb-[14px]'><a href="#" className=' text-[#FDFDFF] opacity-70 font-exo text-sm sm:text-base font-normal'>Privacy Policy</a></li>
+        <li className=' mb-[14px]'><a href="#contact" className=' text-[#FDFDFF] opacity-70 font-exo text-sm sm:text-base font-normal'>Contact</a></li>
+        <li><a href=" tel:(629) 555-0129" className=' text-[#FDFDFF] opacity-70 font-exo text-sm sm:text-base font-normal'>(629) 555-0129</a></li>
     </ul>
 </div>
         </div>

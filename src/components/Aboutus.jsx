@@ -4,7 +4,7 @@ import { Star } from "./Icon";
 import triangle from "../assets/images/triangle.webp";
 const Aboutus = () => {
   return (
-    <div className="lg:pt-[150px] sm:pt-[80px] relative">
+    <div className="lg:pt-[150px] sm:pt-[80px] relative" id="about">
       <img src={triangle} alt="tri" className="absolute lg:top-[-5%] sm:top-[-10%] top-[-16%] md:left-[3%] left-[20%]" />
       <img src={triangle} alt="tri" className="absolute bottom-[7%] right-[3%] hidden lg:block" />
       <div className="container max-w-[1140px] 2xl:max-w-[1320px] mx-auto w-full px-3">
