@@ -12,22 +12,22 @@ const Footer = () => {
 <a href="#"><img src={footlogo} alt="logo" className=' md:mb-7 mb-4' /></a>
 <p className=' font-exo text-white text-sm sm:text-base font-normal mb-2'>Follow Us</p>
 <div className=' flex gap-4'>
-<a href="">
+<a href="https://www.facebook.com/" target='blank' rel='noreffere'>
     <div className="rounded-full flex justify-center items-center border border-solid border-[#FDFDFF] h-11 w-11 hover:scale-110 duration-300">
         <Facebook/>
     </div>
 </a>
-<a href="">
+<a href="https://www.instagram.com/" target='blank'>
     <div className="rounded-full flex justify-center items-center border border-solid border-[#FDFDFF] h-11 w-11 hover:scale-110 duration-300">
         <Insta/>
     </div>
 </a>
-<a href="">
+<a href="https://twitter.com/" target='blank'>
     <div className="rounded-full flex justify-center items-center border border-solid border-[#FDFDFF] h-11 w-11 hover:scale-110 duration-300">
       <Twitter/>
     </div>
 </a>
-<a href="">
+<a href="https://in.linkedin.com/" target='blank'>
     <div className="rounded-full flex justify-center items-center border border-solid border-[#FDFDFF] h-11 w-11 hover:scale-110 duration-300">
         <Linked/>
     </div>
