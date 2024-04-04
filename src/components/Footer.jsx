@@ -60,7 +60,7 @@ const Footer = () => {
       </div>
       <div className="w-full h-[1px] bg-[#FFFFFF4D]"></div>
       <div className="container max-w-[1140px] 2xl:max-w-[1320px] mx-auto px-3">
-<p className=' text-xs sm:text-sm font-exo text-white duration-300 after:absolute relative after:bottom-[-15%] after:bg-[#FDFDFF] after:left-[100%] after:right-[100%] hover:after:left-0 hover:after:right-0 after:h-[2px] after:duration-500 after:rounded-md hover:opacity-100  opacity-70 text-center pt-4'>© Copyright {year} Noble Mind | All rights reserved. </p>
+<p className=' text-xs sm:text-sm font-exo text-white  opacity-70 text-center pt-4'>© Copyright {year} Noble Mind | All rights reserved. </p>
       </div>
     </div>
   )
