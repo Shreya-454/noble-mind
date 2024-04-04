@@ -76,13 +76,13 @@ const Contact = () => {
                 <div className="w-1/2">
                   <label
                     htmlFor="first"
-                    className=" text-sm sm:text-base pb-[5px] text-[#131200] font-exo opacity-70"
+                    className=" text-sm sm:text-base  text-[#131200] font-exo opacity-70"
                   >
                     Name
                   </label>
                   <input
                     type="text"
-                    className="w-full border border-solid border-[#13120033] focus-visible:outline-none h-[48px] rounded-lg p-1"
+                    className="w-full border border-solid border-[#13120033] mt-[5px] focus-visible:outline-none h-[48px] rounded-lg p-1"
                     id="first"
                     name="firstname"
                     value={formData.firstname}
@@ -95,13 +95,13 @@ const Contact = () => {
                 <div className="w-1/2">
                   <label
                     htmlFor="last"
-                    className="text-sm sm:text-base pb-[5px] text-[#131200] font-exo opacity-70"
+                    className="text-sm sm:text-base  text-[#131200]  font-exo opacity-70"
                   >
                     Last Name
                   </label>
                   <input
                     type="text"
-                    className="w-full border border-solid border-[#13120033] focus-visible:outline-none h-[48px] rounded-lg p-1"
+                    className="w-full border border-solid border-[#13120033] mt-[5px] focus-visible:outline-none h-[48px] rounded-lg p-1"
                     id="last"
                     name="lastname"
                     value={formData.lastname}
@@ -123,7 +123,7 @@ const Contact = () => {
                   type="email"
                   name="email"
                   id="email"
-                  className=" w-full h-12 border border-solid border-[#13120033] rounded-lg focus-visible:outline-none p-1"
+                  className=" w-full h-12 border border-solid border-[#13120033] rounded-lg focus-visible:outline-none p-1 mt-[5px]"
                   onChange={handleChange}
                     value={formData.email}/>
                 {formErrors.email && (
@@ -140,7 +140,7 @@ const Contact = () => {
                 <textarea
                   name="msg"
                   id="Messg"
-                  className="h-[135px] w-full border border-solid border-[#13120033] rounded-lg focus-visible:outline-none p-1 resize-none"
+                  className="h-[135px] w-full border border-solid border-[#13120033] rounded-lg focus-visible:outline-none p-1 resize-none mt-[5px]"
                 ></textarea>
               </div>
               <div className=" flex justify-center lg:block">

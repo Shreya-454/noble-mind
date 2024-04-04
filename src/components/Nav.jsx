@@ -14,7 +14,7 @@ const Nav = () => {
     <div className='bg-white'>
     <div className="container max-w-[1140px] 2xl:max-w-[1320px] px-3 mx-auto">
         <div className='flex items-center  py-[19px]  justify-between'>
-          <a href="#"><img src={logo} alt="img" /></a>
+          <a href="#home"><img src={logo} alt="img" /></a>
             <ul className={`flex gap-6 mobileView items-center ${ show ? "right-[-100%]" : "right-0"
         }`}>
                 <li onClick={nav} className='mb-0 pb-0 leading-[0]'><a href="#home"  className=' font-exo opacity-70 hover:opacity-100 duration-300  font-normal text-base text-[#131200]'>Home</a></li>
