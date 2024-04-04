@@ -61,9 +61,9 @@ const Contact = () => {
   }
   return (
     <div className="lg:pt-[150px] md:pt-20 pt-10">
-      <div className="container max-w-[1140px] mx-auto px-3 w-full">
+      <div className="container max-w-[1140px] 2xl:max-w-[1320px] mx-auto px-3 w-full" >
         <div className="flex lg:flex-row flex-wrap -mx-3 flex-col-reverse">
-          <div className="lg:w-1/2 px-3">
+          <div className="lg:w-1/2 px-3" data-aos="zoom-in">
             <h2 className=" font-outfit text-3xl md:text-5xl md:leading-[57.6px] font-semibold text-[#131200] mb-4 text-center lg:text-start mt-10 lg:mt-0">
               Contact <span className=" font-light">Us</span>
             </h2>
@@ -71,7 +71,7 @@ const Contact = () => {
               Feel free to contact us any time . We will get back to you{" "}
               <span className="lg:block">as soon as we can!</span>{" "}
             </p>
-            <form className="max-w-[478px] mt-[18px] mx-auto lg:mx-0" onSubmit={handleSubmit}>
+            <form className="max-w-[478px] mt-[18px] mx-auto lg:mx-0" onSubmit={handleSubmit} data-aos="zoom-in">
               <div className="flex w-full gap-[11px] mb-3 md:mb-4">
                 <div className="w-1/2">
                   <label
@@ -159,7 +159,7 @@ const Contact = () => {
       )}
             </form>
           </div>
-          <div className="lg:w-1/2 px-3 flex justify-center">
+          <div className="lg:w-1/2 px-3 flex justify-center" data-aos="fade-left">
             <img
               src={contactimg}
               alt="img"

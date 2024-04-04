@@ -11,8 +11,8 @@ const Nav = () => {
       }
     }
   return (
-    <div>
-    <div className="container max-w-[1140px] px-3 mx-auto">
+    <div className='bg-white'>
+    <div className="container max-w-[1140px] 2xl:max-w-[1320px] px-3 mx-auto">
         <div className='flex items-center  py-[19px]  justify-between'>
           <img src={logo} alt="img" />
             <ul className={`flex gap-6 mobileView items-center ${ show ? "right-[-100%]" : "right-0"

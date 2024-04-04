@@ -1,4 +1,5 @@
 import React from 'react'
+import triangle from '../assets/images/triangle.webp'
 import { One, Star, Three, Two } from './Icon'
 import {Swiper, SwiperSlide} from 'swiper/react';
 import "swiper/css/navigation";
@@ -15,14 +16,18 @@ import chooseimg from '../assets/images/chooseimg.webp'
 
 const Choose = () => {
   return (
-    <div className='lg:pt-[151px] md:pt-20 pt-10'>
-      <div className="container max-w-[1140px] mx-auto px-3">
-      <img src={chooseimg} alt="img" className='lg:h-[527px] w-full md:mt-8 mt-0 block lg:hidden'/>
-<div className="flex items-center justify-center gap-[6px] mb-2 max-lg:mt-5">
-    <Star/>
-    <p className=' font-exo text-sm sm:text-base text-[#131200] font-normal '>Why Choose Us</p>
+    <div className='lg:pt-[151px] md:pt-20 pt-10 relative z-[1]'>
+      <img src={triangle} alt="tri"  className=' absolute top-[15%] left-[3%] hidden lg:block'/>
+      <img src={triangle} alt="tri" className=' absolute right-[1%] bottom-0 hidden lg:block z-[-1]' />
+      <div className="container 2xl:max-w-[1320px] max-w-[1140px] mx-auto px-3">
+      <img src={chooseimg} alt="img" className='lg:h-[527px] w-full md:mt-8 mt-0 block lg:hidden' data-aos="zoom-in"/>
+<div data-aos="zoom-in">
+  <div className="flex items-center justify-center gap-[6px] mb-2 max-lg:mt-5">
+      <Star/>
+      <p className=' font-exo text-sm sm:text-base text-[#131200] font-normal '>Why Choose Us</p>
+  </div>
+  <h2 className=' text-3xl md:text-5xl text-center md:leading-[57.6px] font-outfit'>Driving Innovation & <span className='md:block font-semibold'>Transforming Industries</span></h2>
 </div>
-<h2 className=' text-3xl md:text-5xl text-center md:leading-[57.6px] font-outfit'>Driving Innovation & <span className='md:block font-semibold'>Transforming Industries</span></h2>
 <Swiper
          breakpoints={{
             768: {
@@ -45,7 +50,7 @@ const Choose = () => {
           className="!pb-[51px] lg:!pt-[51px] !pt-5"
           >
     <SwiperSlide>
-        <div className='max-w-[364px] p-[18px] border border-solid border-[#A854E933] w-full bg-[#FDFDFF0D] rounded-xl h-[208px] cardslider  mx-auto'>
+        <div className='max-w-[364px] p-[18px] border border-solid border-[#A854E933] w-full bg-[#FDFDFF0D] rounded-xl h-[208px] cardslider  mx-auto' data-aos="zoom-out">
             <div className="w-[24px] h-[24px] border-[12px] box-content bg-white border-[#A854E93D] flex justify-center items-center rounded-full mb-[11px]">
                 <One/>
             </div>
@@ -54,7 +59,7 @@ const Choose = () => {
         </div>
     </SwiperSlide>
     <SwiperSlide>
-        <div className='max-w-[364px] p-[18px] border border-solid border-[#A854E933] w-full bg-[#FDFDFF0D] rounded-xl !h-[208px] cardslider mx-auto'>
+        <div className='max-w-[364px] p-[18px] border border-solid border-[#A854E933] w-full bg-[#FDFDFF0D] rounded-xl !h-[208px] cardslider mx-auto' data-aos="zoom-out">
             <div className="w-[24px] h-[24px] border-[12px] box-content bg-white border-[#A854E93D] flex justify-center items-center rounded-full mb-[11px]">
                <Two/>
             </div>
@@ -63,7 +68,7 @@ const Choose = () => {
         </div>
     </SwiperSlide>
     <SwiperSlide>
-        <div className='max-w-[364px] p-[18px] border border-solid border-[#A854E933] w-full bg-[#FDFDFF0D] rounded-xl h-[208px] cardslider mx-auto'>
+        <div className='max-w-[364px] p-[18px] border border-solid border-[#A854E933] w-full bg-[#FDFDFF0D] rounded-xl h-[208px] cardslider mx-auto' data-aos="zoom-out">
             <div className="w-[24px] h-[24px] border-[12px] box-content bg-white border-[#A854E93D] flex justify-center items-center rounded-full mb-[11px]">
               <Three/>
             </div>
@@ -72,7 +77,7 @@ const Choose = () => {
         </div>
     </SwiperSlide>
     <SwiperSlide>
-        <div className='max-w-[364px] p-[18px] border border-solid border-[#A854E933] w-full bg-[#FDFDFF0D] rounded-xl h-[208px] cardslider mx-auto'>
+        <div className='max-w-[364px] p-[18px] border border-solid border-[#A854E933] w-full bg-[#FDFDFF0D] rounded-xl h-[208px] cardslider mx-auto' data-aos="zoom-out">
             <div className="w-[24px] h-[24px] border-[12px] box-content bg-white border-[#A854E93D] flex justify-center items-center rounded-full mb-[11px]">
                 <p className=' text-transparent text-2xl bg-clip-text bg-btn-gradient font-outfit'>4</p>
             </div>
@@ -81,7 +86,7 @@ const Choose = () => {
         </div>
     </SwiperSlide>
     </Swiper>
-    <img src={chooseimg} alt="img" className='lg:h-[527px] w-full md:mt-8 mt-0 hidden lg:block'/>
+    <img src={chooseimg} alt="img" className='lg:h-[527px] w-full md:mt-8 mt-0 hidden lg:block' data-aos="zoom-in"/>
     </div>
     </div>
   )

@@ -2,9 +2,11 @@ import React from 'react'
 import footlogo from '../assets/images/footlogo.webp'
 import { Facebook, Insta, Linked, Twitter } from './Icon'
 const Footer = () => {
+    const Dates = new Date()
+    const year = Dates.getFullYear()
   return (
     <div className=' bg-[url(./assets/images/footerbg.webp)] pt-20 md:pt-[138px] bg-cover bg-center bg-no-repeat pb-5 md:pb-[35px]'>
-      <div className="container max-w-[1140px] mx-auto px-3 pb-[52px]">
+      <div className="container max-w-[1140px] 2xl:max-w-[1320px] mx-auto px-3 pb-[52px]">
 <div className="flex flex-row flex-wrap -mx-3">
     <div className="sm:w-1/2 w-full px-3 max-sm:mb-10">
 <img src={footlogo} alt="logo" className=' md:mb-7 mb-4' />
@@ -57,8 +59,8 @@ const Footer = () => {
 </div>
       </div>
       <div className="w-full h-[1px] bg-[#FFFFFF4D]"></div>
-      <div className="container max-w-[1140px] mx-auto px-3">
-<p className=' text-xs sm:text-sm font-exo text-white opacity-70 text-center pt-4'>© Copyright 2023 Noble Mind | All rights reserved. </p>
+      <div className="container max-w-[1140px] 2xl:max-w-[1320px] mx-auto px-3">
+<p className=' text-xs sm:text-sm font-exo text-white opacity-70 text-center pt-4'>© Copyright {year} Noble Mind | All rights reserved. </p>
       </div>
     </div>
   )
