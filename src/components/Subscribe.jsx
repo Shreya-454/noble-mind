@@ -72,7 +72,7 @@ const Subscribe = () => {
             </form>
           </div>
           {formErrors.email && (
-            <p className="text-[red] pt-1 font-exo">{formErrors.email}</p>
+            <p className="text-white pt-1 font-exo">{formErrors.email}</p>
           )}
            {showSuccessPopup && (
         <div className="flex flex-col items-center">
