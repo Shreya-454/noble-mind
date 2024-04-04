@@ -152,9 +152,11 @@ const Contact = () => {
                   </button>
               </div>
               {showSuccessPopup && (
-        <div className="success-popup">
-          <p className="text-black pt-1 font-robotoflex">Form submitted successfully!</p>
-          <button className="gradient-btn px-3 py-2" onClick={handlePopupClose}>Close</button>
+        <div>
+          <div className="flex flex-col items-center">
+            <p className="text-black pt-1 font-outfit">Form submitted successfully!</p>
+            <button className=" bg-btn-gradient text-white px-3 py-2 font-outfit" onClick={handlePopupClose}>Close</button>
+          </div>
         </div>
       )}
             </form>

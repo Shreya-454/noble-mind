@@ -29,15 +29,15 @@ const Subscribe = () => {
       setShowSuccessPopup(true);
     }
   };
-  // const handlePopupClose = () => {
-  //   setShowSuccessPopup(false);
-  //   setFormData({
-  //     email: "",
-  //   });
-  //   setFormErrors({
-  //     email: "",
-  //   });
-  // };
+  const handlePopupClose = () => {
+    setShowSuccessPopup(false);
+    setFormData({
+      email: "",
+    });
+    setFormErrors({
+      email: "",
+    });
+  };
   if (showSuccessPopup) {
     document.body.classList.add("overflow-hidden");
   } else {
@@ -67,13 +67,19 @@ const Subscribe = () => {
               <input
                 type="submit"
                 value="Subscribe"
-                className=" font-outfit text-white px-6 py-[14px] sm:text-base text-sm  border border-solid border-[#FDFDFF] rounded-[4px] hover:bg-white  duration-300  hover:text-[#A854E9] hover:border-[#A854E9]"
+                className=" font-outfit text-white px-6 py-[14px] sm:text-base text-sm  border border-solid border-[#FDFDFF] rounded-[4px] hover:bg-white focus-visible:bg-transparent  duration-300  hover:text-[#A854E9] hover:border-[#A854E9]"
               />
             </form>
           </div>
           {formErrors.email && (
             <p className="text-[red] pt-1 font-exo">{formErrors.email}</p>
           )}
+           {showSuccessPopup && (
+        <div className="flex flex-col items-center">
+          <p className="text-white pt-1 font-exo">Form submitted successfully!</p>
+          <button className="border border-white rounded-sm text-white px-3 py-2 font-outfit mt-5" onClick={handlePopupClose}>Close</button>
+        </div>
+      )}
         </div>
       </div>
     </div>
