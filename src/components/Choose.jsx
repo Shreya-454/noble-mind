@@ -50,7 +50,7 @@ const Choose = () => {
           className="!pb-[51px] lg:!pt-[51px] !pt-5"
           >
     <SwiperSlide>
-        <div className='max-w-[364px] p-[18px] border border-solid border-[#A854E933] w-full bg-[#FDFDFF0D] rounded-xl h-[208px] cardslider  mx-auto' data-aos="zoom-out">
+        <div className=' p-[18px] border border-solid border-[#A854E933] w-full bg-[#FDFDFF0D] rounded-xl h-[208px] cardslider  mx-auto' data-aos="zoom-out">
             <div className="w-[24px] h-[24px] border-[12px] box-content bg-white border-[#A854E93D] flex justify-center items-center rounded-full mb-[11px]">
                 <One/>
             </div>
@@ -59,7 +59,7 @@ const Choose = () => {
         </div>
     </SwiperSlide>
     <SwiperSlide>
-        <div className='max-w-[364px] p-[18px] border border-solid border-[#A854E933] w-full bg-[#FDFDFF0D] rounded-xl !h-[208px] cardslider mx-auto' data-aos="zoom-out">
+        <div className=' p-[18px] border border-solid border-[#A854E933] w-full bg-[#FDFDFF0D] rounded-xl !h-[208px] cardslider mx-auto' data-aos="zoom-out">
             <div className="w-[24px] h-[24px] border-[12px] box-content bg-white border-[#A854E93D] flex justify-center items-center rounded-full mb-[11px]">
                <Two/>
             </div>
@@ -68,7 +68,7 @@ const Choose = () => {
         </div>
     </SwiperSlide>
     <SwiperSlide>
-        <div className='max-w-[364px] p-[18px] border border-solid border-[#A854E933] w-full bg-[#FDFDFF0D] rounded-xl h-[208px] cardslider mx-auto' data-aos="zoom-out">
+        <div className=' p-[18px] border border-solid border-[#A854E933] w-full bg-[#FDFDFF0D] rounded-xl h-[208px] cardslider mx-auto' data-aos="zoom-out">
             <div className="w-[24px] h-[24px] border-[12px] box-content bg-white border-[#A854E93D] flex justify-center items-center rounded-full mb-[11px]">
               <Three/>
             </div>
@@ -77,7 +77,7 @@ const Choose = () => {
         </div>
     </SwiperSlide>
     <SwiperSlide>
-        <div className='max-w-[364px] p-[18px] border border-solid border-[#A854E933] w-full bg-[#FDFDFF0D] rounded-xl h-[208px] cardslider mx-auto' data-aos="zoom-out">
+        <div className=' p-[18px] border border-solid border-[#A854E933] w-full bg-[#FDFDFF0D] rounded-xl h-[208px] cardslider mx-auto' data-aos="zoom-out">
             <div className="w-[24px] h-[24px] border-[12px] box-content bg-white border-[#A854E93D] flex justify-center items-center rounded-full mb-[11px]">
                 <p className=' text-transparent text-2xl bg-clip-text bg-btn-gradient font-outfit'>4</p>
             </div>
