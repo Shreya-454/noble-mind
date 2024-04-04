@@ -9,7 +9,7 @@ const Aboutus = () => {
       <img src={triangle} alt="tri" className="absolute bottom-[7%] right-[3%] hidden lg:block" />
       <div className="container max-w-[1140px] 2xl:max-w-[1320px] mx-auto w-full px-3">
         <div className="flex flex-row flex-wrap -mx-3">
-          <div className="lg:w-1/2 px-3 flex justify-center mx-auto" data-aos="fade-right">
+          <div className="lg:w-1/2 px-3 max-lg:flex justify-center mx-auto" data-aos="fade-right">
             <div className="lg:pr-[51px]">
               <img src={aboutimg} alt="img" className="w-full lg:h-[567px]" />
             </div>

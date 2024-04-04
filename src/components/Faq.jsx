@@ -29,9 +29,9 @@ const Faq = () => {
           Frequently <span className=' font-semibold'>Asked Questions</span>
           </h2>
           <p className=' font-exo text-sm sm:text-base text-[#131200] !opacity-70 text-center mb-7 md:mb-[52px]' data-aos="zoom-in">Lorem ipsum dolor sit amet consectetur. Orci augue mollis eu <span className='md:block'>volutpat mi leo. Nibh nisl consequat metus.</span></p>
-          <div className=' max-w-[774px] mx-auto'>
+          <div className=' max-w-[774px] mx-auto' data-aos="zoom-in">
               <div   className={`border border-solid border-[#A854E933] mb-[18px] shadow-[0px_4px_32px_0px_#00000014] after:w-full after:h-[5px] relative after:absolute after:bg-[#A854E9]  after:bottom-0  overflow-hidden rounded-md duration-300 ${
-            open === 1 ? "border-[#A854E9] !after:block  " : "after:hidden"}`} data-aos="fade-right">
+            open === 1 ? "border-[#A854E9] !after:block  " : "after:hidden"}`}>
                   <Accordion open={open === 1} icon={<Icon id={1} open={open} />}>
                           <AccordionHeader onClick={() => handleOpen(1)}     className={`pb-6 pt-6 px-6 text-start font-outfit text-sm sm:text-base font-medium text-black ${
             open === 1 ? "pb-3" : ""
@@ -42,7 +42,7 @@ const Faq = () => {
                         </Accordion>
               </div>
               <div   className={`border border-solid border-[#A854E933] mb-[18px] shadow-[0px_4px_32px_0px_#00000014] after:w-full after:h-[5px] relative after:absolute after:bg-[#A854E9]  after:bottom-0 overflow-hidden rounded-md duration-300 ${
-            open === 2 ? "border-[#A854E9] !after:block  " : "after:hidden"}`} data-aos="fade-left">
+            open === 2 ? "border-[#A854E9] !after:block  " : "after:hidden"}`}>
                   <Accordion open={open === 2} icon={<Icon id={2} open={open} />}>
                           <AccordionHeader onClick={() => handleOpen(2)}     className={`pb-6 pt-6 px-6 text-start font-outfit text-sm sm:text-base font-medium text-black ${
             open === 2 ? "pb-3" : ""
@@ -53,7 +53,7 @@ const Faq = () => {
                         </Accordion>
               </div>
               <div   className={`border border-solid border-[#A854E933] mb-[18px] shadow-[0px_4px_32px_0px_#00000014] after:w-full after:h-[5px] relative after:absolute after:bg-[#A854E9]  after:bottom-0 overflow-hidden rounded-md duration-300 ${
-            open === 3 ? "border-[#A854E9] !after:block  " : "after:hidden"}`} data-aos="fade-right">
+            open === 3 ? "border-[#A854E9] !after:block  " : "after:hidden"}`}>
                   <Accordion open={open === 3} icon={<Icon id={3} open={open} />}>
                           <AccordionHeader onClick={() => handleOpen(3)}     className={`pb-6 pt-6 px-6 text-start font-outfit text-sm sm:text-base font-medium text-black ${
             open === 3 ? "pb-3" : ""
@@ -64,7 +64,7 @@ const Faq = () => {
                         </Accordion>
               </div>
               <div   className={`border border-solid border-[#A854E933] mb-[18px] shadow-[0px_4px_32px_0px_#00000014] after:w-full after:h-[5px] relative after:absolute after:bg-[#A854E9]  after:bottom-0  overflow-hidden rounded-md duration-300 ${
-            open === 4 ? "border-[#A854E9] !after:block  " : "after:hidden"}`} data-aos="fade-left">
+            open === 4 ? "border-[#A854E9] !after:block  " : "after:hidden"}`}>
                   <Accordion open={open === 4} icon={<Icon id={4} open={open} />}>
                           <AccordionHeader onClick={() => handleOpen(4)}     className={`pb-6 pt-6 px-6 text-start font-outfit text-sm sm:text-base font-medium text-black ${
             open === 4 ? "pb-3" : ""
@@ -75,7 +75,7 @@ const Faq = () => {
                         </Accordion>
               </div>
               <div   className={`border border-solid border-[#A854E933] shadow-[0px_4px_32px_0px_#00000014] after:w-full after:h-[5px] relative after:absolute after:bg-[#A854E9]  after:bottom-0  overflow-hidden rounded-md duration-300 ${
-            open === 5 ? "border-[#A854E9] !after:block  " : "after:hidden"}`} data-aos="fade-right">
+            open === 5 ? "border-[#A854E9] !after:block  " : "after:hidden"}`}>
                   <Accordion open={open === 5} icon={<Icon id={5} open={open} />}>
                           <AccordionHeader onClick={() => handleOpen(5)}     className={`pb-6 pt-6 px-6 text-start font-outfit text-sm sm:text-base font-medium text-black ${
             open === 5 ? "pb-3" : ""
