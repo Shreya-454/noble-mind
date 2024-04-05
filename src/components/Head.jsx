@@ -4,7 +4,7 @@ import { Star } from './Icon'
 
 const Head = () => {
   return (
-    <div className=' min-h-screen bg-[url(./assets/images/nobleherobg.webp)] bg-left  bg-no-repeat bg-cover flex flex-col xl:bg-full' id='home'>
+    <div className=' min-h-screen relative after:bg-white after:opacity-[0.7] after:z-[-1] z-[1] max-lg:after:w-full after:absolute after:h-full  bg-[url(./assets/images/nobleherobg.webp)] bg-center  bg-no-repeat bg-cover flex flex-col xl:bg-full' id='home'>
     <Nav/> 
       <div className=' flex-grow flex items-center'>
           <div className="container max-w-[1140px] 2xl:max-w-[1320px] mx-auto px-3" data-aos="zoom-in">
