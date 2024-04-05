@@ -54,7 +54,7 @@ const Subscribe = () => {
           <p className=" font-exo text-sm sm:text-base font-normal text-[#FDFDFF] text-center mb-5 md:mb-9">
             Be the first to get exclusive offers and the latest news.
           </p>
-          <div className=" max-w-[448px] mx-auto border border-solid border-[#FDFDFF33] p-2.5 bg-[#8D62DD] rounded-md w-full">
+          <div className=" max-w-[448px] mx-auto border border-solid border-[#FDFDFF33] p-2.5 bg-[#FFFFFF0D] rounded-md w-full">
             <form onSubmit={handleSubmit} className="flex justify-between">
               <input
                 type="email"
