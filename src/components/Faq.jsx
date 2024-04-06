@@ -67,7 +67,7 @@ const Faq = () => {
               <AccordionHeader
                 onClick={() => handleOpen(1)}
                 className={`pb-6 pt-6 px-6 text-start font-outfit text-sm sm:text-base font-medium text-black ${
-                  open === 1 ? "pb-3" : ""
+                  open === 1 ? "pb-3 !opacity-100" : " !opacity-70"
                 }`}
               >
                 What is Artificial Intelligence (AI)?
@@ -89,7 +89,7 @@ const Faq = () => {
               <AccordionHeader
                 onClick={() => handleOpen(2)}
                 className={`pb-6 pt-6 px-6 text-start font-outfit text-sm sm:text-base font-medium text-black ${
-                  open === 2 ? "pb-3" : ""
+                  open === 2 ? "pb-3 !opacity-100" : " !opacity-70"
                 }`}
               >
                 How does AI benefit our company?
@@ -111,7 +111,7 @@ const Faq = () => {
               <AccordionHeader
                 onClick={() => handleOpen(3)}
                 className={`pb-6 pt-6 px-6 text-start font-outfit text-sm sm:text-base font-medium text-black ${
-                  open === 3 ? "pb-3" : ""
+                  open === 3 ? "pb-3 !opacity-100" : " !opacity-70"
                 }`}
               >
                 What types of AI technologies are relevant to our industry?
@@ -133,7 +133,7 @@ const Faq = () => {
               <AccordionHeader
                 onClick={() => handleOpen(4)}
                 className={`pb-6 pt-6 px-6 text-start font-outfit text-sm sm:text-base font-medium text-black ${
-                  open === 4 ? "pb-3" : ""
+                  open === 4 ? "pb-3 !opacity-100" : " !opacity-70"
                 }`}
               >
                 How can our employees adapt to AI integration?
@@ -155,7 +155,7 @@ const Faq = () => {
               <AccordionHeader
                 onClick={() => handleOpen(5)}
                 className={`pb-6 pt-6 px-6 text-start font-outfit text-sm sm:text-base font-medium text-black ${
-                  open === 5 ? "pb-3" : ""
+                  open === 5 ? "pb-3 !opacity-100" : " !opacity-70"
                 }`}
               >
                 How can our company ensure data security with AI?
