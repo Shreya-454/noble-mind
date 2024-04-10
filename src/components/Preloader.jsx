@@ -1,5 +1,5 @@
 import React from "react";
-import logo from '../assets/images/logo.webp'
+import logo from '../assets/images/svg/logo.svg'
 const Preloader = () => {
   return (
     <div className="h-screen flex flex-col justify-center items-center ">

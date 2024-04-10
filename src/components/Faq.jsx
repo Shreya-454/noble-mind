@@ -4,7 +4,7 @@ import {
   AccordionHeader,
   AccordionBody,
 } from "@material-tailwind/react";
-import triangle from "../assets/images/triangle.webp";
+import triangle from "../assets/images/svg/triangle.svg";
 function Icon({ id, open }) {
   return (
     <svg
@@ -34,12 +34,12 @@ const Faq = () => {
       <img
         src={triangle}
         alt="tri"
-        className=" absolute top-[11%] left-[3%] hidden lg:block "
+        className=" absolute top-[11%] left-[3%] hidden lg:block animate-pulse"
       />
       <img
         src={triangle}
         alt="tri"
-        className="absolute bottom-[25%] right-[3%] hidden lg:block"
+        className="absolute bottom-[25%] right-[3%] hidden lg:block animate-pulse"
       />
       <div className=" container max-w-[1140px] 2xl:max-w-[1320px] mx-auto w-full px-3">
         <h2

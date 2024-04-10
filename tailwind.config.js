@@ -4,7 +4,9 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
+
     extend: {
+      
       fontFamily:{
         'outfit':'"Outfit",sans-serif',
         'mont':'Montserrat',
@@ -17,7 +19,8 @@ module.exports = {
       },
       animation:{
         'spin-slow':'spin 5s linear infinite'
-      }
+      },
+   
     },
   },
   plugins: [],

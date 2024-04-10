@@ -1,5 +1,5 @@
 import React from 'react'
-import triangle from '../assets/images/triangle.webp'
+import triangle from '../assets/images/svg/triangle.svg'
 import { One, Star, Three, Two } from './Icon'
 import {Swiper, SwiperSlide} from 'swiper/react';
 import "swiper/css/navigation";
@@ -17,8 +17,8 @@ import chooseimg from '../assets/images/chooseimg.webp'
 const Choose = () => {
   return (
     <div className='lg:pt-[151px] md:pt-20 pt-10 relative z-[1]' id='choose'>
-      <img src={triangle} alt="tri"  className=' absolute top-[15%] left-[3%] hidden lg:block'/>
-      <img src={triangle} alt="tri" className=' absolute right-[1%] bottom-0 hidden lg:block z-[-1]' />
+      <img src={triangle} alt="tri"  className=' absolute top-[15%] left-[3%] hidden lg:block animate-pulse'/>
+      <img src={triangle} alt="tri" className=' absolute right-[1%] bottom-0 hidden lg:block z-[-1]  animate-pulse' />
       <div className="container 2xl:max-w-[1320px] max-w-[1140px] mx-auto px-3">
       <img src={chooseimg} alt="img" className='lg:h-[527px] w-full md:mt-8 mt-0 block lg:hidden' data-aos="zoom-in"/>
 <div data-aos="zoom-in">

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import triangle from "../assets/images/triangle.webp";
+import triangle from "../assets/images/svg/triangle.svg";
 const Subscribe = () => {
   const [formData, setFormData] = useState({
     email: "",
@@ -45,7 +45,7 @@ const Subscribe = () => {
   }
   return (
     <div className="lg:pt-[64px] relative  ">
-      <img src={triangle} alt="tri" className=" absolute left-[2%] top-[10%] hidden lg:block" id="subs"/>
+      <img src={triangle} alt="tri" className=" absolute left-[2%] top-[10%] hidden lg:block animate-pulse" id="subs"/>
       <div className="container max-w-[1140px] 2xl:max-w-[1320px] mx-auto px-3">
         <div className="bg-[url(./assets/images/subscribebg.webp)] bg-cover bg-center bg-no-repeat w-full rounded-xl py-10 md:py-[60px] flex flex-col items-center md:!translate-y-[86px] !translate-y-10 px-4 " data-aos="zoom-in-down">
           <h2 className=" font-outfit text-3xl md:text-5xl text-[#FDFDFF]  font-light md:leading-[57.6px] mb-2 text-center">

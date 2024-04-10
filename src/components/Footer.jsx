@@ -1,5 +1,5 @@
 import React from 'react'
-import footlogo from '../assets/images/footlogo.webp'
+import footlogo from '../assets/images/svg/footlogo.svg'
 import { Facebook, Insta, Linked, Twitter } from './Icon'
 const Footer = () => {
     const Dates = new Date()
