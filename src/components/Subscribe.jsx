@@ -67,7 +67,7 @@ const Subscribe = () => {
               <input
                 type="submit"
                 value="Subscribe"
-                className=" font-outfit text-white px-6 py-[14px] font-semibold sm:text-base text-sm cursor-pointer  border border-solid border-[#FDFDFF] rounded-[4px] hover:bg-white focus-visible:bg-transparent  duration-300  hover:text-[#A854E9] hover:border-[#A854E9]"
+                className=" font-outfit text-white px-6 py-[14px] font-semibold sm:text-base text-sm cursor-pointer border border-solid border-[#FDFDFF] rounded-[4px] hover:bg-white focus-visible:bg-transparent  duration-300  hover:text-[#A854E9] hover:border-[#A854E9]"
               />
             </form>
           </div>
