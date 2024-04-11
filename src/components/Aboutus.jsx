@@ -40,7 +40,7 @@ const Aboutus = () => {
                 the vision of Noble Mind hints at a brighter, more efficient
                 nation.
               </p>
-              <button className=" bg-btn-gradient text-white text-sm  sm:text-base font-outfit py-[14px] px-6 rounded-[4px] mt-5 md:mt-[42px] z-[1] before:z-[-1]  before:transition-all before:ease-linear before:hover:bg-white duration-300 before:duration-300 before:absolute before:left-[-100%] before:bg-transparent before:hover:left-[0] before:hover:w-full before:top-0 before:w-full before:h-full  relative overflow-hidden border-transparent border-[2px] hover:text-[#A854E9] hover:border-[#A854E9]">
+              <button className=" bg-btn-gradient text-white text-sm  font-semibold sm:text-base font-outfit py-[14px] px-6 rounded-[4px] mt-5 md:mt-[42px] z-[1] before:z-[-1]  before:transition-all before:ease-linear before:hover:bg-white duration-300 before:duration-300 before:absolute before:left-[-100%] before:bg-transparent before:hover:left-[0] before:hover:w-full before:top-0 before:w-full before:h-full  relative overflow-hidden border-transparent border-[2px] hover:text-[#A854E9] hover:border-[#A854E9]">
                 Read More
               </button>
             </div>
